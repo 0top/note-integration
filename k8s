@@ -1,0 +1,5 @@
+k8s:
+Q: 不同namespace直接如何通过相互访问
+
+A: 可以通过service, service-name.namespace当做域名访问即可
+    kubectl get svc -n namespace
