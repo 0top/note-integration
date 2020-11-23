@@ -11,5 +11,7 @@ docker push newImage
 
 docker rmi `docker ps | grep name`
 
-
+## overlay2空间
+/var/lib/docker/overlay2 目录会越来越大
+通过docker system df 查看占用 删除无用镜像
 
