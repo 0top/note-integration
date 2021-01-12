@@ -21,6 +21,7 @@
 ## 数据库
 
 + redis
+  another redis desktop manager
 + mysql
 
 ## 展示
