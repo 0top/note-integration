@@ -24,6 +24,10 @@
   another redis desktop manager
 + mysql
 
+## disruptor
+高并发队列
+解决伪共享问题
+
 ## 展示
 
 dataV
