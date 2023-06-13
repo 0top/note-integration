@@ -23,6 +23,14 @@ go通过首字母大小写确定当前字段或方法是否公开
 在序列化struct为json时，若字段小写则序列化有问题
 
 
+## goLang
+unresolve dependency
+
+勾选
+file -> settings -> Go Modules -> Enable Go modules integration
+
+
+
 
 
 
