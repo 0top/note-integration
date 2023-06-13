@@ -18,7 +18,9 @@ go env -w CGO_ENABLED=0 GOOS=linux GOARCH=amd64
 go mod init
 go mod download
 
-
+## json
+go通过首字母大小写确定当前字段或方法是否公开
+在序列化struct为json时，若字段小写则序列化有问题
 
 
 
