@@ -1,0 +1,26 @@
+
+1.查看文件
+find / -name filename.txt
+递归超着所有xml文件
+find . -name "*.xml"
+
+压缩文件
+tar -czf t.tar.gz /f1 /f2
+zip -r file.zip /tmp
+
+tar -xvzf f.tar.gz
+
+查看文件头10行
+head -n file.txt
+
+tail -n 10 file.txt
+
+查看端口所属程序
+lsof -i:8080
+
+查看端口占用情况
+netstat -tln | grep 8080
+
+
+
+
